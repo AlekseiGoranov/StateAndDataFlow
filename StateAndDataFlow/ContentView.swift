@@ -67,13 +67,11 @@ struct ButtonView: View {
                     RoundedRectangle(cornerRadius: 20)
                         .stroke(Color.black, lineWidth: 4)
             )
-            
-            
         })
     }
+    
     private func logOut() {
         UserDefaults.standard.removeObject(forKey: "userName")
         user.isRegister = false
     }
-    
 }

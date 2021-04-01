@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct RegisterView: View {
-    
     @EnvironmentObject var user: UserManager
     @EnvironmentObject var letterCounter: letterCounter
     @ObservedObject  var name = UserSettings()

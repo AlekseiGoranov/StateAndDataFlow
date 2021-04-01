@@ -11,7 +11,4 @@ import Combine
 class letterCounter: ObservableObject {
     var objectWillChange = PassthroughSubject<letterCounter, Never>()
     @Published private var lettersCounter = UserManager().name.count
-    
-   
-    
 }
